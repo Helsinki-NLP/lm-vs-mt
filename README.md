@@ -13,5 +13,8 @@ Pretrained language models (PLMs) have shown impressive performance and garnered
 - **Downstream Tasks**: Includes sentiment analysis (SA), named entity recognition (NER), and part-of-speech (POS) tagging.
 
 ## Usage
+This repo has git-lfs enabled as we also host fairseq model weights (`./model_weights`) in this repo. You can skip those LFS by  
+`GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:Helsinki-NLP/lm-vs-mt.git`
+
 
 ## Citation
