@@ -18,3 +18,15 @@ This repo has git-lfs enabled as we also host fairseq model weights (`./model_we
 
 
 ## Citation
+
+```
+@article{li2024stacksbetteronecomparison,
+      title={Two Stacks Are Better Than One: A Comparison of Language Modeling and Translation as Multilingual Pretraining Objectives}, 
+      author={Zihao Li and Shaoxiong Ji and Timothee Mickus and Vincent Segonne and Jörg Tiedemann},
+      year={2024},
+      eprint={2407.15489},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.15489}, 
+}
+```
