@@ -16,17 +16,16 @@ Pretrained language models (PLMs) have shown impressive performance and garnered
 This repo has git-lfs enabled as we also host fairseq model weights (`./model_weights`) in this repo. You can skip those LFS by  
 `GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:Helsinki-NLP/lm-vs-mt.git`
 
+Release the processed dataset for pretraining here https://a3s.fi/mickusti-2005099-pub/lm-vs-mt_data.tar.gz 
 
 ## Citation
 
 ```
-@article{li2024stacksbetteronecomparison,
-      title={Two Stacks Are Better Than One: A Comparison of Language Modeling and Translation as Multilingual Pretraining Objectives}, 
+@inproceedings{li2024stacksbetteronecomparison,
+      title={A Comparison of Language Modeling and Translation as Multilingual Pretraining Objectives}, 
       author={Zihao Li and Shaoxiong Ji and Timothee Mickus and Vincent Segonne and Jörg Tiedemann},
       year={2024},
-      eprint={2407.15489},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
+      booktitle={Proceedings of EMNLP},
       url={https://arxiv.org/abs/2407.15489}, 
 }
 ```
