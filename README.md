@@ -21,11 +21,23 @@ Release the processed dataset for pretraining here https://a3s.fi/mickusti-20050
 ## Citation
 
 ```
-@inproceedings{li2024stacksbetteronecomparison,
-      title={A Comparison of Language Modeling and Translation as Multilingual Pretraining Objectives}, 
-      author={Zihao Li and Shaoxiong Ji and Timothee Mickus and Vincent Segonne and Jörg Tiedemann},
-      year={2024},
-      booktitle={Proceedings of EMNLP},
-      url={https://arxiv.org/abs/2407.15489}, 
+@inproceedings{li-etal-2024-comparison,
+    title = "A Comparison of Language Modeling and Translation as Multilingual Pretraining Objectives",
+    author = {Li, Zihao  and
+      Ji, Shaoxiong  and
+      Mickus, Timothee  and
+      Segonne, Vincent  and
+      Tiedemann, J{\"o}rg},
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.888",
+    pages = "15882--15894",
+    abstract = "Pretrained language models (PLMs) display impressive performances and have captured the attention of the NLP community.Establishing best practices in pretraining has, therefore, become a major focus of NLP research, especially since insights gained from monolingual English models may not necessarily apply to more complex multilingual models.One significant caveat of the current state of the art is that different works are rarely comparable: they often discuss different parameter counts, training data, and evaluation methodology.This paper proposes a comparison of multilingual pretraining objectives in a controlled methodological environment. We ensure that training data and model architectures are comparable, and discuss the downstream performances across 6 languages that we observe in probing and fine-tuning scenarios.We make two key observations: (1) the architecture dictates which pretraining objective is optimal; (2) multilingual translation is a very effective pretraining objective under the right conditions.We make our code, data, and model weights available at https://github.com/Helsinki-NLP/lm-vs-mt.",
 }
 ```
